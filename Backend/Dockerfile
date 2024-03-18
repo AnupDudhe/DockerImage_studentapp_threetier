@@ -14,7 +14,7 @@ ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar lib/my
 
 EXPOSE 8080
 
-CMD ["bin/catalina.sh" , "RUN"]
+CMD ["bin/catalina.sh" , "run"]
 #ENTRYPOINT [ "bin/catalina.sh" , "RUN" ]
 #CMD bin/catalina.sh RUN 
 #ENTRYPOINT bin/catalina.sh RUN
