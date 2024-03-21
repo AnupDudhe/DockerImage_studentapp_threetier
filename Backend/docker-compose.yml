@@ -1,5 +1,4 @@
 version:  "3.8"
-
 services: 
   backendimg:
     build: /root/Dockerimage_studentapp_threetier/Backend/
