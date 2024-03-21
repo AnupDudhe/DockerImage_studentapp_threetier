@@ -4,5 +4,6 @@ services:
   frontendimg:  
     build: .
     container_name: frontend
-    ports: 80:80
+    ports: 
+      - 80:80
     
