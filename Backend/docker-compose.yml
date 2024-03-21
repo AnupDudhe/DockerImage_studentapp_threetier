@@ -6,13 +6,13 @@ services:
     container_name : backend
     ports: 
       - 8080:8080
-    network:
+    network_mode:
         bridge
   frontendimg:  
     build:  /root/DockerImage_studentapp_threetier/Frontend/
     container_name: frontend
     ports: 
       - 80:80
-    network:
+    network_mode:
         bridge
     
