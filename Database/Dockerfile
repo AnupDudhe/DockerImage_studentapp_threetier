@@ -2,6 +2,8 @@ FROM mysql:latest
 
 LABEL database="studentapp"
 
+ENV MYSQL_ROOT_PASSWORD=1234
+
 COPY student.sql /docker-entrypoint-initdb.d/
 
 CMD /bin/bash
