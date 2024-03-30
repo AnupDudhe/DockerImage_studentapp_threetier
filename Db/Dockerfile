@@ -1,3 +1,4 @@
+FROM mysql:latest
 LABEL database="studentapp"
 
 ENV MYSQL_ROOT_PASSWORD=1234
