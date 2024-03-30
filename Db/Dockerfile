@@ -9,7 +9,7 @@ COPY student.sql /docker-entrypoint-initdb.d/
 
 EXPOSE 3306
 
-["mysqld"]
+CMD ["mysqld"]
 
 #CMD/bin/bash
 #VOLUME /var/lib/mysql
